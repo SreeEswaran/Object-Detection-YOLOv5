@@ -1,0 +1,10 @@
+train:
+  images: "data/images/train/"
+  labels: "data/labels/train/"
+  epochs: 50
+  batch_size: 16
+  learning_rate: 0.001
+
+val:
+  images: "data/images/val/"
+  labels: "data/labels/val/"
